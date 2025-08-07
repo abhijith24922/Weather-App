@@ -18,7 +18,7 @@ search_btn.onclick=async function getdata()
         // console.log(f);
         if(f.ok==false)
         {
-            alert("Please Enter Valide City Name!")
+            alert("Please Enter Valid City Name!")
             return;
         }
         if(fjs.weather[0].main=="Clouds")
@@ -50,4 +50,5 @@ search_btn.onclick=async function getdata()
         alert("Something went wrong!.Please try again later.")
         console.log("Catched Error:"+error);
     }
+
 }
