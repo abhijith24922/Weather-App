@@ -173,7 +173,7 @@ body{
             grid-template-columns:repeat(auto-fit,minmax(50px,1fr));
             width:80%;
             height:70%;
-        margin-top:50%;
+        margin-top:10%;
         }
         #search_div{
         /* border:2px solid black; */
@@ -246,6 +246,7 @@ body{
     }
 
     }
+
 
 
 
