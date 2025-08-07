@@ -170,7 +170,7 @@ body{
     @media (max-width:480px){
         #main{
             grid-template-rows:repeat(10,55px);
-            grid-template-columns:repeat(10,30px);
+            grid-template-columns:repeat(auto-fit,minmax(50px,1fr));
             width:80%;
             height:70%;
         }
@@ -254,4 +254,5 @@ body{
         margin-top:-5px;
         margin-left:-90px;
     }
+
     }
