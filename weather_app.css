@@ -196,23 +196,13 @@ body{
     #content_box{
         display:flex;
         flex-direction:column;
-/*         border:1px solid red; */
-        grid-row-start:3;
-        grid-row-end:11;
-        grid-column-start:1;
-        grid-column-end:7;
-        align-items:center;
-    }
-
-    #content_box{
-        display:flex;
-        flex-direction:column;
         /* border:1px solid red; */
         grid-row-start:3;
         grid-row-end:11;
         grid-column-start:1;
         grid-column-end:12;
         align-items:center;
+        margin-top:50%;
     }
 
     #scale{
@@ -256,6 +246,7 @@ body{
     }
 
     }
+
 
 
 
