@@ -138,9 +138,8 @@ body{
     }
     #hum_winds{
         width:100%;
-        /* border:2px solid rgb(255, 0, 0); */
+        /* border:1px solid rgb(255, 0, 0); */
         display:flex;
-        gap:180px;
         margin-top:0px;
         font-size:13px;
         font-family:Arial;
@@ -157,14 +156,32 @@ body{
     /*Media Querries*/
     @media (max-width:1440px){
         #main{
-            margin-top:.5%;
+            margin-top:3.5%;
         }
+    #hum{
+        margin-left:21%;
+        margin-top:-5px;
+    }
+    #winds{
+        margin-top:-5px;
+        margin-left:32%;
+    }
     }
 
     @media (max-width:1024px){
         #main{
             margin-top:0.5%;
         }
+
+    #hum{
+        margin-left:21%;
+        margin-top:-5px;
+    }
+
+    #winds{
+        margin-top:-5px;
+        margin-left:35%;
+    }
     }
 
     @media (max-width:768px){
@@ -244,16 +261,16 @@ body{
     }
 
     #hum_scale ,#winds_scale{
-        font-size:1.8rem;
+        font-size:clamp(1rem,1.5rem,1.8rem);
     }
 
     #hum{
-        margin-left:25%;
+        margin-left:23%;
         margin-top:-5px;
     }
     #winds{
         margin-top:-5px;
-        margin-left:-7%;
+        margin-left:28%;
     }
     }
 
@@ -321,7 +338,7 @@ body{
     }
 
     #hum_scale ,#winds_scale{
-        font-size:1.2rem;
+        font-size:clamp(16px,0.5rem,1.2rem);
     }
 
     #hum{
@@ -330,7 +347,7 @@ body{
     }
     #winds{
         margin-top:-5px;
-        margin-left:-12%;
+        margin-left:34%;
     }
 
     }
